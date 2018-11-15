@@ -1,6 +1,6 @@
 //deli counter
 function takeANumber(arr){
-  arr.push("person");
+  arr.push(arr.length+1);
   let pos = arr.length;
   let str = `Welcome, You are number ${pos} in line.`;
   return str;
